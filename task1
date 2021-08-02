@@ -1,0 +1,7 @@
+function multi(a, b) {
+    return a  *  b
+}
+let answer = multi(6, 5)
+if(answer >= 30) {
+    console.log('こうかは　ばつぐんだ！')
+} 
