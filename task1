@@ -5,4 +5,4 @@ let answer = multi(6, 5)
 if(answer >= 30) {
     console.log('こうかは　ばつぐんだ！')
 } 
-$ git push origin main
+$ git push Fledgling main
