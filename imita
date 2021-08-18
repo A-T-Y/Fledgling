@@ -1,0 +1,39 @@
+//復習とただの模倣（≠コピー）
+const calculator = (numA, numB,type) => {
+    switch (type) {
+        case '+':
+            return numA + numB
+        case '-':
+            return numA - numB
+        case '*':
+            return numA * numB
+        case '/':
+            return numA / numB
+        case '^':
+            return numA ** numB
+        default:
+            return false
+    }
+}
+console.log(calculator(3,5, '^'))
+243
+
+let x = 1;
+let y =2;
+[x,y] = [y,x];
+(2) [2, 1]
+console.log(x,y);
+2 1
+
+let rank = 'B';
+switch(rank) {
+    case 'A' :
+    case 'B' :
+    case 'C' :
+      console.log('採用');
+      break;
+    case 'D' :
+      console.log('不採用')
+      break
+}
+採用
