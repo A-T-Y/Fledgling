@@ -1,4 +1,3 @@
-//模試で振るわなかったので頻度落ちてた…（言い訳）
 function closure(init) {
     let counter = init;
     
